@@ -10,10 +10,10 @@ class MarketHtmlPresenter
     {
 		$str = '';
 		foreach($market->getCurrencies() as $currency){
-			$str .= '<img src="'. $currency->getLogoUrl() .'">';
+			$str .= '<ol><img src="'. $currency->getLogoUrl() .'">';
 			$str .= $currency->getName().': ';
 			$str .= $currency->getDailyPrice();
-			$str .= '<br />';
+			$str .= '</ol>';
 		}
 		return $str;
     }
