@@ -26,8 +26,8 @@ $presentation = $marketPresenter->present($market);
     <title>Built-in Web Server</title>
 </head>
 <body>
-<ul>
+<ol>
 <?php echo $presentation ?>
-</ul>
+</ol>
 </body>
 </html>
