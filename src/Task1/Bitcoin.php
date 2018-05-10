@@ -1,6 +1,5 @@
 <?php declare(strict_types=1);
 namespace Cryptocurrency\Task1;
-use Cryptocurrency\Task1\AbstractCurrency;
 
 class Bitcoin  extends AbstractCurrency
 {
