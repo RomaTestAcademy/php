@@ -27,7 +27,6 @@ class EmojiGeneratorTest extends TestCase
     {
         return [
             [['🚀', '🚃', '🚄', '🚅', '🚇']]
-           // [['1f680','1f683','1f684','1f685','1f687']]
         ];
     }
 
